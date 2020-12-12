@@ -1,0 +1,22 @@
+.fly {
+  transform-origin: 50% 50% 0;
+  animation: fly 3s linear infinite;
+}
+
+@keyframes fly {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
